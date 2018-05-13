@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
     if (argc == 2)
         poll_gpio(argv[1]);
     else
-        printf("Usage:%s <gpio_pin>\n", argv[0]);
+        printf("Usage:%s <gpio_path>\n", argv[0]);
 
     return 0;
 }
